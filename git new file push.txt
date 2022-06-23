@@ -1,0 +1,15 @@
+bash open
+
+#신규파일 add
+
+git add 파일명
+
+
+# 커밋 방법
+
+git commit -m "코멘트"
+
+
+# 실제 업로드 방법
+
+git push origin master
