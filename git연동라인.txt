@@ -1,0 +1,30 @@
+
+ppotry86@dyyoon MINGW64 /d/work
+$ git init
+Initialized empty Git repository in D:/work/.git/
+
+ppotry86@dyyoon MINGW64 /d/work (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+ppotry86@dyyoon MINGW64 /d/work (master)
+$ git remoted add origin https://github.com/dyyoon86/react.git
+git: 'remoted' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote-fd
+
+ppotry86@dyyoon MINGW64 /d/work (master)
+$ git remote add origin https://github.com/dyyoon86/react.git
+
+ppotry86@dyyoon MINGW64 /d/work (master)
+$ git remote -v
+origin  https://github.com/dyyoon86/react.git (fetch)
+origin  https://github.com/dyyoon86/react.git (push)
+
+ppotry86@dyyoon MINGW64 /d/work (master)
+$
