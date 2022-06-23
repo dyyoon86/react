@@ -27,4 +27,92 @@ origin  https://github.com/dyyoon86/react.git (fetch)
 origin  https://github.com/dyyoon86/react.git (push)
 
 ppotry86@dyyoon MINGW64 /d/work (master)
-$
+$ git add git연동라인.txt
+
+ppotry86@dyyoon MINGW64 /d/work (master)
+$ git commit -m "first commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ppotry86@dyyoon.(none)')
+
+ppotry86@dyyoon MINGW64 /d/work (master)
+$ git conifg core.autocrlf true
+git: 'conifg' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+
+ppotry86@dyyoon MINGW64 /d/work (master)
+$ git configg core.autocrlf true
+git: 'configg' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+
+ppotry86@dyyoon MINGW64 /d/work (master)
+$ git config core.autocrlf true
+
+ppotry86@dyyoon MINGW64 /d/work (master)
+$ git commit -m "first commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ppotry86@dyyoon.(none)')
+
+ppotry86@dyyoon MINGW64 /d/work (master)
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/dyyoon86/react.git'
+
+ppotry86@dyyoon MINGW64 /d/work (master)
+$ ^C
+
+ppotry86@dyyoon MINGW64 /d/work (master)
+$ ^C
+
+ppotry86@dyyoon MINGW64 /d/work (master)
+$ ^C
+
+ppotry86@dyyoon MINGW64 /d/work (master)
+$ git config user.name "dyyoon"
+
+ppotry86@dyyoon MINGW64 /d/work (master)
+$ git config user.email "ppotry86@gmail.com"
+
+ppotry86@dyyoon MINGW64 /d/work (master)
+$ git commit -m "first commit"
+[master (root-commit) 63ab4bd] first commit
+ 1 file changed, 30 insertions(+)
+ create mode 100644 "git\354\227\260\353\217\231\353\235\274\354\235\270.txt"
+
+ppotry86@dyyoon MINGW64 /d/work (master)
+$ git  push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 508 bytes | 254.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/dyyoon86/react.git
+ * [new branch]      master -> master
+
+ppotry86@dyyoon MINGW64 /d/work (master)
